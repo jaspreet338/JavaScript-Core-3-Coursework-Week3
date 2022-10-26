@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+answer: Because X is declared two times separately as two different variable inside the function block
 
 ## Question 2
 
@@ -34,7 +35,9 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
-
+Answer:
+console.log(y) : y is not defined but it declared inside the function
+console.log(f1()): return undefined or print the value of x.
 ## Question 3
 
 Take a look at the following code:
@@ -62,3 +65,6 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+Answer: 
+console.log(x) = 9, because x is declared globally as const so value will not change.
+console.log(y) = `y = {x : 10}` because objects are mutable.
